@@ -13,6 +13,6 @@ export class AppComponent {
 
   search(term) {
     this.wikipediaService.search(term)
-                         .then(items => this.items = items);
+                         .then(tet => this.items = tet);
   }
 }
